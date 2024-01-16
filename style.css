@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    /* background: url(https://images.unsplash.com/photo-1496096265110-f83ad7f96608?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+    no
+} */
+background: linear-gradient(65deg, #044b4b, #008080, hsla(0, 0%, 100%, 0.76));
+}
+main{
+    width: 400px;
+    padding:80px;
+    /* border-radius: 10px;
+    border: 2px solid azure ; */
+    position: relative;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* background-color: transparent;
+    backdrop-filter: blur(30px); */
+    Box-shadow: 1px 1px 5px white;
+}
+form{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header h2{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 40px;
+    background-color: rgb(199, 251, 251);
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    
+
+}
+button{
+    position: relative;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 200px;
+}
+.hover-button{
+    background-color: azure;
+    color: #008080;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.rememberBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    
+}
+.remember{
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 13px;
+    
+}
+a{
+    color: azure;
+}
